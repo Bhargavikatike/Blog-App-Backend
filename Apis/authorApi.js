@@ -1,6 +1,6 @@
 import exp from "express";
 import { register } from "../Services/authService.js";
-import { ArticleModel } from "../models/ArticleModel.js";
+import { ArticleModel } from "../Models/articleModel.js";
 import { verifyToken } from "../middlewares/verifyToken.js";
 import { upload } from "../config/multer.js";
 import cloudinary from "../config/cloudinary.js";
