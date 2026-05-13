@@ -1,5 +1,5 @@
 ### User Register
-POST http://localhost:4000/user-api/users
+POST https://blog-app-backend-unn9.onrender.com/user-api/users
 Content-Type: application/json
 
 {
@@ -11,7 +11,7 @@ Content-Type: application/json
 }
 
 ### User Register
-POST http://localhost:4000/user-api/users
+POST https://blog-app-backend-unn9.onrender.com/user-api/users
 Content-Type: application/json
 
 {
