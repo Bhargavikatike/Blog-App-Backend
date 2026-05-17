@@ -16,8 +16,7 @@ const app = exp();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://blog-app-frontend-2wbeunogt-bhargavikatikes-projects.vercel.app",
-    "https://blog-app-frontend-jepa.vercel.app"
+    "https://blog-app-frontend-mmz7-jfft52elj-bhargavikatikes-projects.vercel.app"
   ],
   credentials: true
 }));
