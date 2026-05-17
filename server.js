@@ -14,7 +14,11 @@ config(); //process.env
 const app = exp();
 //use cors middleware
 app.use(cors({
-  origin: ["https://blog-app-frontend-2wbeunogt-bhargavikatikes-projects.vercel.app","blog-app-frontend-jepa.vercel.app"],
+  origin: [
+    "http://localhost:5173",
+    "https://blog-app-frontend-2wbeunogt-bhargavikatikes-projects.vercel.app",
+    "https://blog-app-frontend-jepa.vercel.app"
+  ],
   credentials: true
 }));
 //add body parser middleware
